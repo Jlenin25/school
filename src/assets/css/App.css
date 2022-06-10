@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Livvic:wght@900&family=Open+Sans:wght@300;400;500;600;700;800&family=Shippori+Antique+B1&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Outfit', sans-serif;
+}
+body {
+	background-color: #4373CF;
+}
+.container-home-page nav {
+	background-color: #336AA1;
+	padding: 10px 0;
+}
+nav {
+	position: fixed;
+	top: 0;
+	z-index: 6;
+	width: 100%;
+}
+.container-home-page nav .container-nav,
+.container-home-page .section-container,
+.container-home-page footer {
+	position: relative;
+	max-width: 1710px;
+	margin: auto;
+}
+nav .container-nav ul li,
+nav .container-nav ul li a {
+	color: #fff;
+}
+nav .container-nav,
+nav .container-nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .container-nav ul li {
+	margin-left: 20px;
+	font-size: 12px;
+}
+nav .container-nav ul li .contactanos {
+	background-color: #30CF86;
+	padding: 7px 20px;
+	border-radius: 15px;
+}
+nav .container-nav ul li ul {
+	display: none;
+}
+.container-home-page section .container-section-one {
+	max-width: 1100px;
+	display: flex;
+	align-items: center;
+	margin: 40px auto;
+	margin-top: 150px;
+}
+section .container-section-one .left-side h2 {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+	color: #fff;
+	line-height: 60px;
+}
+section .container-section-one .left-side {
+	margin-right: 50px;
+}
+section .container-section-one .left-side h2 .span {
+	display: flex;
+	color: #FFC83D;
+}
+section .container-section-one .left-side h2 .span .plus {
+	color: #73EBAA;
+}
+section .container-section-one .right-side h3,
+section .container-section-one .right-side p {
+	color: #fff;
+}
+section .container-section-one .right-side h3 {
+	margin-bottom: 50px;
+	font-size: 25px;
+}
+section .container-section-one .right-side p {
+	font-size: 18px;
+}
+section .container-section-one .right-side p label {
+	color: #73EBAA;
+}
+section .container-section-two {
+	max-width: 650px;
+	background-color: #FFCD19;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #30CF86;
+	padding: 30px;
+	color: #fff;
+	margin: auto;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	border-width: 6px;
+}
+section .container-section-two .left-side-form {
+	max-width: 250px;
+}
+section .container-section-two .left-side-form .icon-arrows {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+}
+section .container-section-two .left-side-form h2 {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+	margin-bottom: 20px;
+}
+section .container-section-two .left-side-form p {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+	margin-bottom: 70px;
+}
+section .container-section-two form {
+	max-width: 200px;
+	margin-left: 50px;
+}
+section .container-section-two form .telefono-pais select {
+	margin-bottom: 0;
+}
+section .container-section-two form .telefono-pais input {
+	margin-top: 0px;
+}
+section .container-section-two form .label {
+	font-size: 20px;
+	margin-bottom: 500px !important;
+	padding-bottom: 00;
+}
+section .container-section-two form input {
+	width: 300px;
+}
+section .container-section-two form select {
+	width: 330px;
+}
+section .container-section-two form input,
+section .container-section-two form select {
+	padding: 13px;
+	border-radius: 20px;
+	border-color: #ccc;
+	outline: none;
+	margin: 20px 0;
+	font-size: 15px;
+}
+section .container-section-two form .aceptar-terminos {
+	display: flex;
+	width: 330px;
+	margin: 0;
+}
+section .container-section-two form .aceptar-terminos input {
+	background-color: #000;
+	margin-left: -120px;
+	margin-top: 5px;
+}
+section .container-section-two form .aceptar-terminos a {
+	font-size: 18px;
+	margin-left: -110px;
+}
+section .container-section-two form button {
+	padding: 10px 30px;
+	border-radius: 10px;
+	float: right;
+	margin: 0;
+	background-color: #3574E3;
+	border-style: none;
+	color: #fff;
+	margin-top: 60px;
+	margin-right: -120px;
+	margin-bottom: 20px;
+}
+section .container-section-two form button:hover {
+	cursor: pointer;
+}
+section .container-section-three {
+	max-width: 1200px;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+}
+section .container-section-three .icon-section-three {
+	margin-top: 80px;
+	font-size: 80px;
+}
+section .container-section-three .title-section-three {
+	margin-bottom: 40px;
+	font-weight: lighter;
+	font-family: 'Livvic', sans-serif;
+	font-size: 19px;
+}
+section .container-section-three .second-title-section-three {
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+}
+section .container-section-three .planes {
+	display: flex;
+	justify-content: space-between;
+}
+section .container-section-three .planes article {
+	margin: 30px 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #7ED2E6;
+	padding: 10px;
+	width: 400px;
+	height: 550px;
+}
+.planes article .titulo {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+}
+.planes article .subtitulo {
+	font-size: 17px;
+}
+.planes article hr {
+	margin-top: 35px;
+}
+.planes article img {
+	margin: 20px 0;
+}
+.planes article .cops-first {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.planes article .cops-first h3 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Livvic', sans-serif;
+}
+.planes article .precio {
+	margin: 20px 0;
+	text-align: left;
+	text-decoration: line-through;
+	height: 20px;
+}
+.planes article .ahorro {
+	text-align: left;
+	bottom: 550px;
+}
+.planes article .container-info-planes {
+	background-color: #00B6A2;
+	margin: 40px 0;
+	text-align: left;
+	padding: 10px;
+	border-radius: 10px;
+	height: 120px;
+}
+.planes article .container-info-planes h3 {
+	font-size: 14px;
+	margin-bottom: 18px;
+}
+.planes article .container-info-planes ul {
+	padding-bottom: 40px;
+}
+.planes article .container-info-planes ul li {
+	font-size: 14px;
+}
+.planes article .container-info-planes .span-valor-paga {
+	margin: -25px 0;
+	font-size: 11px;
+}
+.planes article a {
+	background-color: #F68625;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 30px;
+}
+.planes article a:hover {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #F68625;
+}
